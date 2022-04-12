@@ -1,0 +1,220 @@
+﻿@charset "utf-8";
+@import "cw_layout.css";
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 2
+   Case Problem 2
+   
+   Civil War History Style Sheet
+   Author: Ajay Vora
+   Date:  27 January 2022 
+   
+   Filename: cw_styles.css
+
+*/
+
+
+/* Structural Styles */
+
+html{ background-color: rgb(151, 151, 151);
+   font-family: Verdana, Geneva, sans-serif; }
+
+
+   /* Body Header Styles */
+   body {
+      background-color: rgb(180, 180, 223);
+   }
+
+   body > header{ background-color: rgb(97, 97, 211);
+   }
+
+   body>header>h1{
+      font-size: 3vw;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: Limelight,cursive;
+      margin: 0px;
+   }
+   body>header>h1>span{
+      color: rgba(255, 255, 255, 0.4);
+   }
+
+   body>header>nav>ul>li
+   {
+      padding-top: 5px;
+      padding-bottom: 5px;
+   }
+
+   body>header>nav>ul>li>a:link
+   {
+      text-decoration: none;
+      color: whitesmoke;
+      
+   }
+   body>header>nav>ul>li>a:visited
+   {
+      text-decoration: none;
+      color: whitesmoke;
+      
+   }
+
+   body>header>nav>ul>li>a:hover
+   {
+      text-decoration: none;
+      color: whitesmoke;
+      opacity: 0.8;
+      background-color: rgba(51, 51, 51, 0.5);
+   }
+
+   body>header>nav>ul>li>a:active
+   {
+      text-decoration: none;
+      color: whitesmoke;
+      opacity: 0.8;
+      background-color: rgba(51, 51, 51, 0.5);
+   }
+
+
+/* Navigation Styles */
+
+body> nav>ol
+{
+   color: rgb(101, 101, 101);
+   font-size: 0.8em;
+   line-height: 2em;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: 5px;
+   margin-left: 5px;
+   list-style-type: upper-roman;
+}
+
+body> nav>ol>li>ol>li
+{
+   color: rgb(101, 101, 101);
+   font-size: 0.8em;
+   line-height: 2em;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: 5px;
+   margin-left: 5px;
+   list-style-type: upper-alpha;
+}
+
+
+/* Outline Styles */
+
+body> nav>ol>li>ol>li>a:visited
+{
+   text-decoration: none;
+   font-size: 0.8em;
+   color: rgb(101, 101, 101);
+   text-align: center;
+}
+
+body> nav>ol>li>ol>li>a:link
+{
+   text-decoration: none;
+   font-size: 0.8em;
+   color: rgb(101, 101, 101);
+   text-align: center;
+}
+
+body> nav>ol>li>ol>li>a:hover,a:active
+{
+   text-decoration: none;
+   font-size: 0.8em;
+   color: rgb(97, 97, 211);
+   text-align: center;
+}
+
+body> nav>ol>li>a:link
+{
+   text-decoration: none;
+   color: rgb(101, 101, 101);
+   text-align: center;
+   font-size: 0.8em;
+   line-height: 2em;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: 5px;
+   margin-left: 5px;
+}
+
+body> nav>ol>li>a:visited
+{
+   text-decoration: none;
+   color: rgb(101, 101, 101);
+   text-align: center;
+   font-size: 0.8em;
+   line-height: 2em;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: 5px;
+   margin-left: 5px;
+}
+
+body> nav>ol>li>a:hover,a:active
+{
+   text-decoration: none;
+   color: rgb(97, 97, 211);
+   text-align: center;
+   font-size: 0.8em;
+   line-height: 2em;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: 5px;
+   margin-left: 5px;
+}
+
+
+
+/* Section Styles */
+
+body >section
+{
+   background-color: rgb(220, 220, 220);
+}
+
+body>section>header>h1
+{
+   font-size: 2.2em;
+   padding-left: 10px;
+}
+
+
+/* Article Styles */
+
+body>section>article>h2
+{
+   font-size: 1.4em;
+}
+
+body>section>article>p:first-of-type:first-letter
+{
+   font-size: 2em;
+}
+
+
+/* Aside Styles */
+
+body>section>aside
+{
+   font-size: 0.9em;
+}
+
+body>section>aside>h1
+{
+   font-size: 1.4em;
+   text-align: center;
+}
+
+
+/* Footer Styles */
+footer{
+   color: whitesmoke;
+   background-color: rgb(101, 101, 101);
+   font-size: 0.8em;
+   padding-top: 1px;
+   padding-bottom: 1px;
+   text-align: center;
+}
